@@ -6,7 +6,7 @@
     --roxo-medio: #190E03;
     --roxo-mais-claro: #E0AAFF;
     --preto: #000000;
-    --branco: #FFFFFF;
+    --branco: #E7C7A5;
 }
 
 * {
@@ -17,6 +17,7 @@
 body {
     font-family: 'DM Sans', Arial, Helvetica, sans-serif;
     color: var(--roxo-mais-escuro);
+    background-color: var(--branco);
 }
 
 .topo {
@@ -73,8 +74,8 @@ a {
     padding: 80px;
 }
 
-.header img {
-    width: auto;
+.header .direita img {
+    width: 400px;
 }
 
 .esquerda {
@@ -136,7 +137,7 @@ h1 {
 }
 
 .produto img {
-    height: auto; 
+    width: 450px;
 }
 
 h2 {
@@ -200,10 +201,10 @@ h3 {
     display: flex;
     align-items: center;
     justify-content: start;
+    height: 100%;
 }
 
 #sobre-nos .esquerda {
-    height: 600px;
     width: 30%;
     display: flex;
     justify-content: center;
@@ -211,7 +212,8 @@ h3 {
 }
 
 #sobre-nos .esquerda img {
-    width: 600px;
+    width: 400px;
+    
 }
 
 #sobre-nos .direita {
